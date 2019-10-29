@@ -1,9 +1,9 @@
-import SoundPlayer from '../sound-player';
-import SoundPlayerConsumer from '../sound-player-consumer';
+import { SoundPlayer } from '../sound-player';
+import { SoundPlayerConsumer } from '../sound-player-consumer';
 
 import { mocked } from "ts-jest";
 
-jest.mock('./sound-player'); // SoundPlayer is now a mock constructor
+jest.mock('../sound-player'); // SoundPlayer is now a mock constructor
 
 beforeEach(() => {
   // Clear all instances and calls to constructor and all methods:

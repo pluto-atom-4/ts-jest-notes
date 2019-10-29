@@ -1,4 +1,4 @@
-export default class SoundPlayer {
+export class SoundPlayer {
 
   private foo: string;
 

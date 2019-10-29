@@ -1,6 +1,6 @@
-import SoundPlayer from './sound-player';
+import { SoundPlayer } from './sound-player';
 
-export default class SoundPlayerConsumer {
+export class SoundPlayerConsumer {
 
   private soundPlayer: SoundPlayer;
 
