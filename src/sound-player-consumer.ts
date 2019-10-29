@@ -1,4 +1,4 @@
-import SoundPlayer from './sound-player';
+import {SoundPlayer} from './sound-player';
 
 export default class SoundPlayerConsumer {
 
@@ -10,6 +10,7 @@ export default class SoundPlayerConsumer {
 
   playSomethingCool() {
     const coolSoundFileName = 'song.mp3';
-    this.soundPlayer.playSoundFile(coolSoundFileName);
+    const ret = this.soundPlayer.playSoundFile(coolSoundFileName);
+    console.log(ret);
   }
 }

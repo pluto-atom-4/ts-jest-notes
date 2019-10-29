@@ -1,4 +1,4 @@
-export default class SoundPlayer {
+export class SoundPlayer {
 
   private foo: string;
 
@@ -6,7 +6,8 @@ export default class SoundPlayer {
     this.foo = 'bar';
   }
 
-  playSoundFile(fileName: string) {
+  playSoundFile(fileName: string): string {
     console.log('Playing sound file ' + fileName);
+    return 'Playing sound file ' + fileName;
   }
 }
